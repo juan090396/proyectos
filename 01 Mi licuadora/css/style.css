@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0; 
+}
+
+.licuadora {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-image: url(../img/licuadora-off.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.licuadora.activo {
+    background-image: url(../img/licuadora-on.gif);
+}
+
+.boton-licuadora {
+    margin: 363px auto 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
